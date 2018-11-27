@@ -1,4 +1,4 @@
-# server-config
+# webhook-server
 <hr>
 
 ### prerequisites
@@ -11,9 +11,9 @@ github_api gem<br>
 
 open a terminal window
 
-clone the repository to your local machine `git clone https://github.com/codeavenger07/server-config.git`
+clone the repository to your local machine `git clone https://github.com/codeavenger07/webhook-server.git`
 
-navigate to the repository that was just created `cd server-config`
+navigate to the repository that was just created `cd webhook-server`
 
 ### configuring the ngrok
 
