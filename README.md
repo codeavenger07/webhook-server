@@ -23,6 +23,10 @@ copy the http forwarding address
 
 ### installing required gems
 
+open a new terminal window
+
+navigate to the repository root
+
 install sinatra `gem install sinatra`
 
 install github_api `gem install github_api`
