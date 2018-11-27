@@ -49,21 +49,21 @@ verify the service is listening on port 1234 by checking the feedback in the ter
 
 ### organization setup
 
-create a new GitHub organization by navigating to your user settings and selecting Organizations from the left hand menu then clicking New Organization
+create a new GitHub organization by navigating to your user settings, selecting Organizations from the left hand menu, and then clicking New Organization
 
 fill out the organization name, the billing email address, and the account type and then select Create Organization
 
-add users to your organization (you are added by default)
+add users to your organization (you are added by default) and then press Continue
 
 fill out appropriate details about the organization or skip the step
 
 ### configuring the webhook
 
-click on the Settings tab of the organization, then click on Webhooks from the left hand menu
+click on the Settings tab of the organization and then click on Webhooks from the left hand menu
 
 click Add Webhook to add a webhook
 
-paste the http forwarding address into the Payload URL followed by '/payload' (endpoint is defined in server.rb
+paste the http forwarding address into the Payload URL followed by '/payload' (endpoint is defined in server.rb)
 
 change the Content type to application/json
 
@@ -82,6 +82,8 @@ click Create a new repository
 name your repository
 
 initialize the repository with a README
+
+click Create Repository
 
 ### outcome
 
