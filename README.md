@@ -35,7 +35,7 @@ install github_api `gem install github_api`
 
 open server.rb in a text editor
 
-edit `gh = Github.new basic_auth: 'username:password'` with your GitHub username and password
+edit `gh = Github.new basic_auth: 'username:password'` to use your GitHub username and password
 
 ### starting the rails app
 
