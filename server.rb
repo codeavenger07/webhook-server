@@ -8,11 +8,12 @@ post '/payload' do
   res = JSON.parse(request.body.read)
   res.class
   action = res["action"]
-  repo_name = res["repository"]["name"]
-  sender_name = res["sender"]["login"]
+
   # acts only on create action
   if action == 'created'
     org_name = res["repository"]["owner"]["login"]
+    repo_name = res["repository"]["name"]
+    sender_name = res["sender"]["login"]
     #could also set branch to the default_branch
     branch_name = 'master'
   # Init the github api
